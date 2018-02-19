@@ -50,7 +50,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-715a3a5e1e928ce77514d4e84e265356 Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARHitTestExample
+1f4cec368342adcb89390ff94eef8d9b Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARHitTestExample
 820e591855ac19dd439d99ec06d3ef2c Assembly-CSharp.dll:.ColorLabel
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -329,4 +329,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
-e0dcccaed7b1f9f10ce8a3eb4f919e17 Assembly-CSharp.dll:.PlaneFinder
+e0dcccaed7b1f9f10ce8a3eb4f919e17 Assembly-CSharp.dll:.ReticleBehavior
+11f81e2d032cc684939692eb545c4808 Assembly-CSharp.dll:.PortalBehavior
+6ab1316fd3d2b6942eef2502d3d1d002 Assembly-CSharp.dll:.CubeBehavior
+b61dcb5542378ecdb1b23765ea33d75f Assembly-CSharp.dll:DigitalRuby.LightningBolt.LightningBoltScript

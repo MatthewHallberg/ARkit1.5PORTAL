@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - plane
+  - cube
+  - bluePortal
+  - orangePortal
+  - gun
   layers:
   - Default
   - TransparentFX

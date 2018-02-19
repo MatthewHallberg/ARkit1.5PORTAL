@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 7b8a6205398264db4a0773270b184d99
+timeCreated: 1518980810
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Arm_1
+    100002: Battery_Housing
+    100004: Cable
+    100006: Control_Lamp_Blue
+    100008: Control_Lamp_Orange
+    100010: Energy_transfer_channel
+    100012: Event_Horizon_Emitter
+    100014: Event_Horizon_Estimation_Wheel
+    100016: Grip
+    100018: Holding_Device_1
+    100020: Lamp
+    100022: Light
+    100024: Pneumatic_1
+    100026: //RootNode
+    100028: Portal_Controll_Lamp
+    100030: Portal_Controll_Lamp_Socket
+    100032: Portal_Emitter
+    100034: Portal_Emitter_White
+    100036: Power_transfer_device
+    100038: Radiation_protection_
+    100040: Symmetrie_Arm_11_Arm_2
+    100042: Symmetrie_Arm_11_Holding_Device_2
+    100044: Symmetrie_Arm_11_Lamp1
+    100046: Symmetrie_Arm_11_Light1
+    100048: Symmetrie_Arm_11_pNEUMATIC_Pneumatic_2
+    100050: Ventilation_Grid
+    100052: White_Shell_1
+    400000: Arm_1
+    400002: Battery_Housing
+    400004: Cable
+    400006: Control_Lamp_Blue
+    400008: Control_Lamp_Orange
+    400010: Energy_transfer_channel
+    400012: Event_Horizon_Emitter
+    400014: Event_Horizon_Estimation_Wheel
+    400016: Grip
+    400018: Holding_Device_1
+    400020: Lamp
+    400022: Light
+    400024: Pneumatic_1
+    400026: //RootNode
+    400028: Portal_Controll_Lamp
+    400030: Portal_Controll_Lamp_Socket
+    400032: Portal_Emitter
+    400034: Portal_Emitter_White
+    400036: Power_transfer_device
+    400038: Radiation_protection_
+    400040: Symmetrie_Arm_11_Arm_2
+    400042: Symmetrie_Arm_11_Holding_Device_2
+    400044: Symmetrie_Arm_11_Lamp1
+    400046: Symmetrie_Arm_11_Light1
+    400048: Symmetrie_Arm_11_pNEUMATIC_Pneumatic_2
+    400050: Ventilation_Grid
+    400052: White_Shell_1
+    2100000: Arm_1Mat
+    2100002: Battery_HousingMat
+    2100004: CableMat
+    2100006: Control_Lamp_BlueMat
+    2100008: Control_Lamp_OrangeMat
+    2100010: Energy_transfer_channelMat
+    2100012: Event_Horizon_EmitterMat
+    2100014: Event_Horizon_Estimation_WheelMat
+    2100016: GripMat
+    2100018: Holding_Device_1Mat
+    2100020: LampMat
+    2100022: LightMat
+    2100024: Pneumatic_1Mat
+    2100026: Portal_Controll_LampMat
+    2100028: Portal_Controll_Lamp_SocketMat
+    2100030: Portal_EmitterMat
+    2100032: Portal_Emitter_WhiteMat
+    2100034: Power_transfer_deviceMat
+    2100036: Radiation_protection_Mat
+    2100038: Symmetrie_Arm_11_Arm_2Mat
+    2100040: Symmetrie_Arm_11_Holding_Device_2Mat
+    2100042: Symmetrie_Arm_11_Lamp1Mat
+    2100044: Symmetrie_Arm_11_Light1Mat
+    2100046: Symmetrie_Arm_11_pNEUMATIC_Pneumatic_2Mat
+    2100048: Ventilation_GridMat
+    2100050: White_Shell_1Mat
+    2300000: Arm_1
+    2300002: Battery_Housing
+    2300004: Cable
+    2300006: Control_Lamp_Blue
+    2300008: Control_Lamp_Orange
+    2300010: Energy_transfer_channel
+    2300012: Event_Horizon_Emitter
+    2300014: Event_Horizon_Estimation_Wheel
+    2300016: Grip
+    2300018: Holding_Device_1
+    2300020: Lamp
+    2300022: Light
+    2300024: Pneumatic_1
+    2300026: Portal_Controll_Lamp
+    2300028: Portal_Controll_Lamp_Socket
+    2300030: Portal_Emitter
+    2300032: Portal_Emitter_White
+    2300034: Power_transfer_device
+    2300036: Radiation_protection_
+    2300038: Symmetrie_Arm_11_Arm_2
+    2300040: Symmetrie_Arm_11_Holding_Device_2
+    2300042: Symmetrie_Arm_11_Lamp1
+    2300044: Symmetrie_Arm_11_Light1
+    2300046: Symmetrie_Arm_11_pNEUMATIC_Pneumatic_2
+    2300048: Ventilation_Grid
+    2300050: White_Shell_1
+    3300000: Arm_1
+    3300002: Battery_Housing
+    3300004: Cable
+    3300006: Control_Lamp_Blue
+    3300008: Control_Lamp_Orange
+    3300010: Energy_transfer_channel
+    3300012: Event_Horizon_Emitter
+    3300014: Event_Horizon_Estimation_Wheel
+    3300016: Grip
+    3300018: Holding_Device_1
+    3300020: Lamp
+    3300022: Light
+    3300024: Pneumatic_1
+    3300026: Portal_Controll_Lamp
+    3300028: Portal_Controll_Lamp_Socket
+    3300030: Portal_Emitter
+    3300032: Portal_Emitter_White
+    3300034: Power_transfer_device
+    3300036: Radiation_protection_
+    3300038: Symmetrie_Arm_11_Arm_2
+    3300040: Symmetrie_Arm_11_Holding_Device_2
+    3300042: Symmetrie_Arm_11_Lamp1
+    3300044: Symmetrie_Arm_11_Light1
+    3300046: Symmetrie_Arm_11_pNEUMATIC_Pneumatic_2
+    3300048: Ventilation_Grid
+    3300050: White_Shell_1
+    4300000: Arm_1
+    4300002: Battery_Housing
+    4300004: Cable
+    4300006: Control_Lamp_Blue
+    4300008: Control_Lamp_Orange
+    4300010: Energy_transfer_channel
+    4300012: Event_Horizon_Emitter
+    4300014: Event_Horizon_Estimation_Wheel
+    4300016: Grip
+    4300018: Holding_Device_1
+    4300020: Lamp
+    4300022: Light
+    4300024: Pneumatic_1
+    4300026: Portal_Controll_Lamp
+    4300028: Portal_Controll_Lamp_Socket
+    4300030: Portal_Emitter
+    4300032: Portal_Emitter_White
+    4300034: Power_transfer_device
+    4300036: Radiation_protection_
+    4300038: Symmetrie_Arm_11_Arm_2
+    4300040: Symmetrie_Arm_11_Holding_Device_2
+    4300042: Symmetrie_Arm_11_Lamp1
+    4300044: Symmetrie_Arm_11_Light1
+    4300046: Symmetrie_Arm_11_pNEUMATIC_Pneumatic_2
+    4300048: Ventilation_Grid
+    4300050: White_Shell_1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

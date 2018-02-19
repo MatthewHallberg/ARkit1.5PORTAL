@@ -8,6 +8,10 @@ namespace UnityEngine.XR.iOS
 		public Transform m_HitTransform;
 		public float maxRayDistance = 30.0f;
 		public LayerMask collisionLayer = 1 << 10;  //ARKitPlane layer
+		public PortalBehavior portalBlue,portalOrange;
+		public CubeBehavior cube;
+
+		private int resultCount = 0;
 
         bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
         {
@@ -15,9 +19,23 @@ namespace UnityEngine.XR.iOS
             if (hitResults.Count > 0) {
                 foreach (var hitResult in hitResults) {
                     Debug.Log ("Got hit!");
-                    m_HitTransform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
-                    m_HitTransform.rotation = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
-                    Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
+					Vector3 pos = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
+					Quaternion rot = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
+
+					if (!cube.isColliding) {
+						cube.PlaceCube (pos, rot);
+					} else if (cube.isBeingCarried) {
+						cube.isBeingCarried = false;
+					} else {
+						resultCount++;
+						if (resultCount % 2 == 0) {
+							portalBlue.ShootPortal (pos, rot);
+						} else {
+							portalOrange.ShootPortal (pos, rot);
+						}
+					}
+
+                   // Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
                     return true;
                 }
             }
@@ -46,7 +64,7 @@ namespace UnityEngine.XR.iOS
 			if (Input.touchCount > 0 && m_HitTransform != null)
 			{
 				var touch = Input.GetTouch(0);
-				if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved)
+				if (touch.phase == TouchPhase.Began)
 				{
 					var screenPosition = Camera.main.ScreenToViewportPoint(touch.position);
 					ARPoint point = new ARPoint {
