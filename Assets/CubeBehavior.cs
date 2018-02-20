@@ -1,16 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// A cube is only placed on a plane if its fallen through the ground. 
+/// </summary>
 public class CubeBehavior : MonoBehaviour {
 
 	[HideInInspector]
-	public bool isColliding = false;
-	[HideInInspector]
 	public bool isBeingCarried = false;
+	[HideInInspector]
+	public bool isColliding = false;
 
 	public Transform bluePortal,orangePortal;
 	public Transform cubeHolder;
+	public BoxCollider cubeGunCollider;
 
 	private Rigidbody rb;
 	private BoxCollider boxCollider;
@@ -26,13 +29,31 @@ public class CubeBehavior : MonoBehaviour {
 		rb.useGravity = true;
 	}
 
+	public void DropCube(){
+		isBeingCarried = false;
+		StartCoroutine (CoolDownColliderRoutine ());
+	}
+
+	void GrabCube(){
+		isBeingCarried = true;
+		rb.velocity = Vector3.zero;
+	}
+
+	IEnumerator CoolDownColliderRoutine(){
+		cubeGunCollider.enabled = false;
+		yield return new WaitForSeconds (1f);
+		cubeGunCollider.enabled = true;
+	}
+
 	void Update(){
+		//if plane falls through the ground allow it to be placed again.
 		if (transform.position.y < -100f) {
 			transform.position = new Vector3 (0, 100, 0);
 			rb.useGravity = false;
 			rb.velocity = Vector3.zero;
+			isColliding = false;
 		}
-
+		//if we are currently being carried by the gun, set out position to that of the cube holder
 		if (isBeingCarried) {
 			transform.position = cubeHolder.position;
 		}
@@ -45,8 +66,8 @@ public class CubeBehavior : MonoBehaviour {
 			StartCoroutine (TransitionCubeRoutine (orangePortal, bluePortal));
 		} else if (col.gameObject.CompareTag ("bluePortal")) {
 			StartCoroutine (TransitionCubeRoutine (bluePortal, orangePortal));
-		} else if (col.gameObject.CompareTag ("gun")) {
-			isBeingCarried = true;
+		} else if (col.gameObject.CompareTag ("gun") && !isBeingCarried) {
+			GrabCube ();
 		}
 	}
 
@@ -61,11 +82,5 @@ public class CubeBehavior : MonoBehaviour {
 		yield return new WaitForSeconds(.5f);
 		boxCollider.enabled = true;
 		rb.useGravity = true;
-	}
-
-	void OnCollisionExit(Collision col){
-		if (col.gameObject.CompareTag ("plane")) {
-			isColliding = false;
-		}
 	}
 }

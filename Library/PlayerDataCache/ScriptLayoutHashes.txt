@@ -88,6 +88,7 @@ e24f7b0a71a5adf64cb689ba2fdc2e05 Assembly-CSharp.dll:.BallMaker
 7a569204f9d29c3d307c150aa038ee30 Assembly-CSharp.dll:.UnityARCameraManager
 9ed622f1ea1aeb5f5018ad143a2009df Assembly-CSharp.dll:.UnityARFaceMeshManager
 2aa04874990b59dd49387aff97c37ed1 Assembly-CSharp.dll:.VideoFormatsExample
+b61dcb5542378ecdb1b23765ea33d75f Assembly-CSharp.dll:DigitalRuby.LightningBolt.LightningBoltScript
 684e5678660c0d774928fb586b22e996 Assembly-CSharp.dll:.BallMover
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -254,6 +255,8 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 48b4f2bb90cadfa8931f7d8baac4245e Assembly-CSharp.dll:.ColorSlider
 48aac773de77753c007e6b8e5fa95d61 Assembly-CSharp.dll:.ColorPresets
 2ba36b6a81a4caef27f07fa7511b83ea Assembly-CSharp.dll:UnityEngine.XR.iOS.ARKitFaceTrackingRemoteConnection
+e0dcccaed7b1f9f10ce8a3eb4f919e17 Assembly-CSharp.dll:.ReticleBehavior
+24f6633a0cb5f6abf9bd3acc27104d85 Assembly-CSharp.dll:.CubeBehavior
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 2e0fd93f459db951da0e2e94e2e33fb7 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
@@ -290,6 +293,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 179196ad7a4b4ea54032fb24e507ecf3 Assembly-CSharp.dll:.ARReferenceImage
+11f81e2d032cc684939692eb545c4808 Assembly-CSharp.dll:.PortalBehavior
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARKitLightManager
 eb4fd2b7e0cd698b07603d3e2b00ab7c Assembly-CSharp.dll:.ARKitPlaneMeshRender
 391d84b859f3b155fe38f54bfce79162 Assembly-CSharp.dll:.UnityPointCloudExample
@@ -329,7 +333,3 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
-e0dcccaed7b1f9f10ce8a3eb4f919e17 Assembly-CSharp.dll:.ReticleBehavior
-11f81e2d032cc684939692eb545c4808 Assembly-CSharp.dll:.PortalBehavior
-6ab1316fd3d2b6942eef2502d3d1d002 Assembly-CSharp.dll:.CubeBehavior
-b61dcb5542378ecdb1b23765ea33d75f Assembly-CSharp.dll:DigitalRuby.LightningBolt.LightningBoltScript

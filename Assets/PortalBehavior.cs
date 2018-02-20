@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Shoots portal out of gun, interpolates and scales to its hit position on
+/// a plane. 
+/// </summary>
 public class PortalBehavior : MonoBehaviour {
 
 	public Transform portalGun;
