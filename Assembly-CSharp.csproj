@@ -55,6 +55,8 @@
      <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
      <Compile Include="Assets\PortalBehavior.cs" />
      <Compile Include="Assets\ReticleBehavior.cs" />
+     <Compile Include="Assets\SceneService.cs" />
+     <Compile Include="Assets\TogglePlaneBehavior.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitRemoteConnection.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ConnectionMessageIds.cs" />
@@ -139,6 +141,7 @@
      <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARVideoFormat.cs" />
      <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\UnityARSessionNativeInterface.cs" />
      <Compile Include="Assets\UnityARKitPlugin\UnityARKitPluginSettings.cs" />
+     <Compile Include="Assets\UnmolestedHitTest.cs" />
      <None Include="Assets\LightningBolt\Readme.txt" />
      <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\MobileOcclusion.shader" />
      <None Include="Assets\UnityARKitPlugin\ARKitRemote\ARKITREMOTE.txt" />

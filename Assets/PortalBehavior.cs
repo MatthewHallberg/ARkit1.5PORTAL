@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 /// <summary>
-/// Shoots portal out of gun, interpolates and scales to its hit position on
-/// a plane. 
+/// Shoots portal out of gun, interpolates and scales to its hit position on a plane. 
 /// </summary>
 public class PortalBehavior : MonoBehaviour {
 
@@ -14,7 +13,7 @@ public class PortalBehavior : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (desiredPosition != Vector3.zero) {
-			transform.position = Vector3.Lerp (transform.position, desiredPosition, 6f * Time.deltaTime);
+			transform.position = Vector3.Lerp (transform.position, desiredPosition, 3f * Time.deltaTime);
 			transform.localScale = Vector3.Lerp (transform.localScale, desiredScale, 2f * Time.deltaTime);
 		}
 	}

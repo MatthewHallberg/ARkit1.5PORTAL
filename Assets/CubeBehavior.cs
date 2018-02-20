@@ -75,11 +75,14 @@ public class CubeBehavior : MonoBehaviour {
 		boxCollider.enabled = false;
 		rb.useGravity = false;
 		rb.AddForce (inPortal.up * -1);
+		transform.GetChild (0).GetComponent<MeshRenderer> ().enabled = false;
 		yield return new WaitForSeconds(.5f);
 		rb.velocity = Vector3.zero;
 		transform.position = outPortal.position;
 		rb.AddForce (outPortal.up * 1f);
-		yield return new WaitForSeconds(.5f);
+		yield return new WaitForSeconds(.1f);
+		transform.GetChild (0).GetComponent<MeshRenderer> ().enabled = true;
+		yield return new WaitForSeconds (.4f);
 		boxCollider.enabled = true;
 		rb.useGravity = true;
 	}
